@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 
-st.title("Análise de Sentimento")
+st.title("Análise de Sentimentos - Em Inglês")
 
 texto = st.text_input("Digite um texto/sentimento em inglês:")
 
