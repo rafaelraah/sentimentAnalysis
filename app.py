@@ -13,4 +13,3 @@ if (texto):
         st.write(f"Este é um sentimento positivo :)  \n {resultado[0]["score"]:.1%} de confiança neste sentimento")
     else:
         st.write(f"Este é um sentimento negativo :(  \n {resultado[0]["score"]:.1%} de confiança neste sentimento")
-    
